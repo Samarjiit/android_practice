@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User : "/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Spinner"
+        android:background="@drawable/custmon_button_style"
+        android:id="@+id/btnSpinner"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="ListView"
+        style="@style/MyTheme"
+
+        android:id="@+id/btnListView"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        style="@style/MyTheme"
+
+        android:text="Fragment"
+        android:id="@+id/btnFragment"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        style="@style/MyTheme"
+
+        android:text="Menu"
+        android:id="@+id/btnMenu"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        style="@style/MyTheme"
+
+        android:text="Settings"
+        android:id="@+id/btnSettings"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Refresh"
+        android:id="@+id/btnRefresh"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Database"
+        android:id="@+id/btnDatabase"
+        android:textAllCaps="false" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAdd"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_baseline_add_24"/>
+
+</LinearLayout>
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/menu_mallu">
+        <item
+            android:id="@+id/menu_narayan"
+            android:title="Narayanan"/>
+        <item
+            android:id="@+id/menu_anjala"
+            android:title="Anjala"/>
+    </group>
+    <group android:id="@+id/menu_sirsi">
+        <item
+            android:id="@+id/menu_prathveesh"
+            android:title="Prathveesh"/>
+        <item
+            android:id="@+id/menu_nikhil"
+            android:title="Nikhil"/>
+    </group>
+    <group android:id="@+id/menu_footpath">
+        <item
+            android:id="@+id/menu_noel"
+            android:title="Noel"/>
+        <item
+            android:id="@+id/menu_ashok"
+            android:title="Ashok"/>
+    </group>
+    <item
+        android:id="@+id/menu_god"
+        android:title="Lord">
+            <menu>
+                <item
+                    android:id="@+id/menu_god1"
+                    android:title="Fazil"/>
+                <item
+                    android:id="@+id/menu_god2"
+                    android:title="Same as above"/>
+            </menu>
+    </item>
+</menu>
